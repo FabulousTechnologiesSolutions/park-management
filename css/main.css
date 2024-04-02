@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-extrabold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-medium-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-semibold-webfont.woff2') format('woff2'),
+        url('../fonts/poppins-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+:root {
+    --blue: #1D66A5;
+    --yellow: #EF9130;
+}
+
+.text-blue {
+    color: var(--blue);
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.text-yellow {
+    color: var(--yellow);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+body {
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.fw-md {
+    font-weight: 500;
+}
+
+.fw-bd {
+    font-weight: 700;
+}
+
+.fw-reg {
+    font-weight: 400;
+}
+
+textarea {
+    resize: none;
+}
+
+.focus-none:focus {
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.nowrap {
+    text-wrap: nowrap !important;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.ex-small {
+    font-size: 10px;
+}
+
+/* ---------dashboard styling---- */
+.panel-wrapper {
+    padding: 16px 16px;
+}
+
+.sidebar {
+    max-width: 230px;
+    width: 100%;
+    position: fixed;
+    height: calc(100dvh - 32px);
+    overflow: auto;
+}
+
+.main {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
+
+/* .nav {
+    position: fixed;
+    width: calc(100% - 290px);
+} */
+
+.profile-side img {
+    max-width: 60px;
+}
+
+.logo-dashboard {
+    max-width: 140px;
+}
+
+.side-nav img {
+    width: 16px;
+}
+
+.nav-profile img {
+    width: 40px;
+}
+
+.nav-icon {
+    width: 20px;
+}
+
+.side-nav img {
+    width: 16px;
+}
+
+.content {
+    max-height: calc(100dvh - 114px);
+    overflow: auto;
+    margin-top: 10px
+}
+
+.content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+    background: var(--blue);
+    border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: #fff;
+    border: 3px solid var(--blue);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px) {
+    .sidebar {
+        position: absolute;
+        margin-top: 80px;
+        height: calc(100dvh - 100px);
+        display: none;
+    }
+
+    .main {
+        width: calc(100% - 0px);
+        margin-left: 0px;
+    }
+
+    .panel-wrapper {
+        padding: 10px 10px;
+    }
+
+    .content {
+        margin: 8px 10px 0;
+        max-height: calc(100dvh - 109px);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sidebar {
+        max-width: calc(100% - 20px);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sidebar {
+        display: block !important;
+    }
+}
