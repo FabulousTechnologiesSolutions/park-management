@@ -59,20 +59,28 @@
 .active{
     color: var(--yellow);
 }
-.text-blue {
-    color: var(--blue);
-}
+
 
 .bg-blue {
     background-color: var(--blue);
 }
-
+.bg-dblue {
+    background: var(--dblue);
+}
+.bg-yellow {
+    background-color: var(--yellow);
+}
+.bg-pink {
+    background-color: var(--pink);
+}
 .text-yellow {
     color: var(--yellow);
 }
-
-.bg-yellow {
-    background-color: var(--yellow);
+.text-blue {
+    color: var(--blue);
+}
+.bg-lghtbl{
+    background-color: #DEDEDE;
 }
 
 .pointer {
@@ -161,7 +169,7 @@ textarea {
 }
 
 .nav-icon {
-    width: 20px;
+    width: 16px;
 }
 
 .side-nav img {
