@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
-.bg-dblue {
-    background: var(--dblue);
+.cbtn{
+    width: 65px;
+    font-size: 12px;
+    margin-left:5px;
+    padding: 3px 0;
+    background-color: #fff;
+    border: solid 1px #C3D3E2;
+    border-radius: 5px;
+}
+.dicon{
+    height: 16px;
+    width: 16px;
 }
