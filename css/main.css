@@ -79,7 +79,7 @@
 .text-blue {
     color: var(--blue);
 }
-
+.bg-lghtbl{}
 
 .pointer {
     cursor: pointer;
