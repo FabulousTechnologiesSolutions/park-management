@@ -5,5 +5,5 @@
 }
 
 .bg-dblue {
-    background: #235E92;
+    background: var(--dblue);
 }
