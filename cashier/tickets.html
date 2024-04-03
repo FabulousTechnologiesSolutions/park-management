@@ -40,7 +40,7 @@
                     <div class="side-nav px-1 mt-4">
                         <a href="" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/grid.png" alt="sidebar link" class="me-2">
-                            <span >Dashboard</span>
+                            <span>Dashboard</span>
                         </a>
                         <a href="" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/employeesy.png" alt="sidebar link" class="me-2">
@@ -102,11 +102,29 @@
                             <input type="text">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </div>
-                        <a href="#" class="bg-yellow px-4 py-2 rounded-3 small text-decoration-none text-white">create Ticket</a>
+                        <a href="#" class="bg-yellow px-4 py-2 rounded-3 small text-decoration-none text-white">create
+                            Ticket</a>
                     </div>
                 </div>
-                <div class="container-fluid mt-3">
-                    
+                <div class="container-fluid mt-3 px-0">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">All Tickets</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Cancel Tickets</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel"
+                            aria-labelledby="home-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                            tabindex="0">...</div>
+                    </div>
                 </div>
             </div>
         </div>

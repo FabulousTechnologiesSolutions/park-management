@@ -40,3 +40,16 @@
     box-shadow: none;
     outline: none;
 }
+.nav-link.active{
+    background-color: var(--yellow) !important;
+    color: #fff !important;
+    font-weight: 500;
+    border: solid 1px var(--yellow) !important;
+}
+
+.nav-link{
+    color:var(--yellow) !important;
+}
+.nav-link:hover{
+    border: solid 1px var(--yellow) !important;
+}
