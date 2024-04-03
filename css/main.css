@@ -79,7 +79,9 @@
 .text-blue {
     color: var(--blue);
 }
-.bg-lghtbl{}
+.bg-lghtbl{
+    background-color: #DEDEDE;
+}
 
 .pointer {
     cursor: pointer;
