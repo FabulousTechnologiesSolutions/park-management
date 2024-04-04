@@ -54,6 +54,9 @@
     --dblue: #235E92;
     --pink:#FEF2E5;
     --yellow: #EF9130;
+    --green:#3FD06F;
+    --red:#E0001B;
+
 }
 
 .active{
@@ -63,6 +66,12 @@
 
 .bg-blue {
     background-color: var(--blue);
+}
+.bg-red {
+    background-color: var(--red);
+}
+.bg-green {
+    background-color: var(--green);
 }
 .bg-dblue {
     background: var(--dblue);
