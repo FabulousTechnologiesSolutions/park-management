@@ -178,7 +178,8 @@ textarea {
 
 .content {
     max-height: calc(100dvh - 114px);
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin-top: 10px
 }
 
