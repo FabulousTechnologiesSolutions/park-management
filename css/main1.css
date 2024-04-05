@@ -76,8 +76,6 @@
 .main-table2 .table tbody tr{
     border: 5px solid hsl(0,0%,100%)
 }
-
-
 .main-table2 .table tbody tr td:first-child{
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
@@ -86,4 +84,14 @@
 .main-table2 .table tbody tr td:last-child{
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+}
+.main-table3 .table thead tr th{
+    background-color: #1D66A5 !important;
+    text-align: center;
+}
+.main-table3 .table thead tr th:first-child{
+    border-top-left-radius: 13px
+}
+.main-table3 .table thead tr th:last-child{
+    border-top-right-radius: 13px
 }
