@@ -13,6 +13,10 @@
     border: solid 1px #C3D3E2;
     border-radius: 5px;
 }
+.tblimg{
+    width: 40px;
+    height: 40px;
+}
 .dicon{
     height: 16px;
     width: 16px;
