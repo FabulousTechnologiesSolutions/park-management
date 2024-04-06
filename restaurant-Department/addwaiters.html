@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/main1.css">
     <link rel="stylesheet" href="../css/main2.css">
-    <title>Waiters</title>
+    <title>Add Waiters</title>
 </head>
 
 <body>
@@ -98,65 +98,35 @@
             <div class="content pt-2">
                 <div class="mx-2">
                     <div class="d-flex flex-wrap align-items-center justify-content-between">
-                        <p class="mb-0 fw-bold me-2">Restaurant Waiters</p>
                         <div class="d-flex flex-wrap align-items-center">
-                            <a href="addwaiters.html"
-                                class="bg-yellow my-1 my-sm-0 px-4 py-2 rounded-3 small text-decoration-none text-white">Add
-                                Waiter</a>
+                            <a href="waiters.html" class="d-flex align-items-center text-decoration-none">
+                                <i class="fa-solid text-black fs-5 fa-angle-left"></i>
+                            </a>
+                            <p class="mb-0 fw-bold mx-3">Create Restaurant Waiters</p>
                         </div>
                     </div>
                     <div class="container-fluid mt-3 px-0">
-                        <div class="row shadow rounded-4 p-3 m-1">
-                            <p class="mb-0 fw-md">Filter by:</p>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Waiters name">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-5 mt-3">
+                                    <input type="file" class="form-control">
+                                </div>
+                                <div class="col-5 mt-3">
+                                    <input type="text" class="form-control" placeholder="Waiter name">
+                                </div>
+                                <div class="col-5 mt-3">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col-5 mt-3">
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
                             </div>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Phone number">
+                            <div class="col-5 mt-3">
+                                <button type="submit" class="bg-yellow text-white w-100 border-0 py-3 rounded-4"> 
+                                    Create New Waiter
+                                </button>
                             </div>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Start duty date">
-                            </div>
-                            <div class="col-3 mt-2">
-                                <input type="submit" class="form-control bg-yellow text-white" value="Search">
-                            </div>
-                        </div>
-                        <div>
-                            <div class=" mt-4 table-responsive main-table2">
-                                <table class="table ">
-                                    <thead>
-                                        <tr>
-                                            <th class="p-3 text-nowrap text-white">No.</th>
-                                            <th class="p-3 text-nowrap text-white">Waiters Name</th>
-                                            <th class="p-3 text-nowrap text-white">Email</th>
-                                            <th class="p-3 text-nowrap text-white">Phone number</th>
-                                            <th class="p-3 text-nowrap text-white">Start  duty date</th>
-                                            <th class="p-3 text-nowrap text-white">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="align-middle">
-                                        <tr>
-                                            <td>01</td>
-                                            <td>
-                                                <div class="d-flex align-items-center">
-                                                    <img src="../img/profiile-nav.png" alt="l" class="tblimg me-2">
-                                                    <p class="mb-0">name here</p>
-                                                </div>                    
-                                            </td>
-                                            <td>example9090@emai</td>
-                                            <td>+24 352 545 3533</td>
-                                            <td>30/12/2024</td>
-                                            <td>
-                                                <div>
-                                                    <a href="#"><i class="fa-solid text-yellow mx-2 fa-trash"></i></a>
-                                                    <a href="#"><i class="fa-solid text-yellow fa-pen-to-square"></i></a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
