@@ -21,6 +21,42 @@
     height: 16px;
     width: 16px;
 }
+.lsticn{
+    background-color: #85D7A9;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lsticn1{
+    background-color: #C29FEE;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lsticn2{
+    background-color: #EF9130;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lsticn3{
+    background-color: #01A5FB;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lgreen{
+    background-color: #C0EBD3;
+    height: 100%;
+}
+.lprple{
+    background-color: #F6EAFF;
+    height: 100%;
+}
+.lpeach{
+    background-color: #FCE9D6;
+    height: 100%;
+}
+.lblue{
+    background-color: #CCEDFE;
+    height: 100%;
+}
 .search{
     border: solid 1px #BEBEBE;
     background-color: #F7F7F7;
