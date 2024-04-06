@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/main1.css">
     <link rel="stylesheet" href="../css/main2.css">
-    <title>Orders</title>
+    <title>Add Order</title>
 </head>
 
 <body>
@@ -86,69 +86,70 @@
             <div class="content pt-2">
                 <div class="mx-2">
                     <div class="d-flex flex-wrap align-items-center justify-content-between">
-                        <p class="mb-0 fw-bold me-2">Takes All Customers Orders</p>
                         <div class="d-flex flex-wrap align-items-center">
-                            <a href="addorder.html"
-                                class="bg-yellow my-1 my-sm-0 px-4 py-2 rounded-3 small text-decoration-none text-white">Add
-                                Order</a>
+                            <a href="orders.html" class="d-flex align-items-center text-decoration-none">
+                                <i class="fa-solid text-black fs-5 fa-angle-left"></i>
+                            </a>
+                            <p class="mb-0 fw-bold ms-2">Takes All Customers Orders</p>
                         </div>
                     </div>
                     <div class="container-fluid mt-3 px-0">
-                        <div class="row shadow rounded-4 p-3 m-1">
-                            <p class="mb-0 fw-md">Filter by:</p>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Order No">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class=" mt-4 table-responsive main-table3">
+                                    <table class="table ">
+                                        <thead>
+                                            <tr>
+                                                <th class="p-3 tbltxt text-nowrap text-white">No.</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Menu</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Quantity</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Prices</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="align-middle">
+                                            <tr>
+                                                <td class="tbltxt text-center">1</td>
+                                                <td class="tbltxt text-center">menu here</td>
+                                                <td class="tbltxt text-center">1KG</td>
+                                                <td class="tbltxt text-center">$50</td>
+                                                <td class="tbltxt text-center">
+                                                    <a href="#"><i class="fa-solid tbltxt text-yellow fa-pen-to-square"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Customer Name">
-                            </div>
-                            <div class="col-3 mt-2">
-                                <input type="text" class="form-control" placeholder="Date">
-                            </div>
-                            <div class="col-3 mt-2">
-                                <input type="submit" class="form-control bg-yellow text-white" value="Search">
-                            </div>
-                        </div>
-                        <div>
-                            <div class=" mt-4 table-responsive main-table2">
-                                <table class="table ">
-                                    <thead>
-                                        <tr>
-                                            <th class="p-3 text-nowrap text-white">Order No.</th>
-                                            <th class="p-3 text-nowrap text-white">Customer Name</th>
-                                            <th class="p-3 text-nowrap text-white">Waiter Name</th>
-                                            <th class="p-3 text-nowrap text-white">Quantity</th>
-                                            <th class="p-3 text-nowrap text-white">Price</th>
-                                            <th class="p-3 text-nowrap text-white">Status</th>
-                                            <th class="p-3 text-nowrap text-white">Action</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="align-middle">
-                                        <tr>
-                                            <td>01</td>
-                                            <td>Name Here</td>
-                                            <td>Food name here</td>
-                                            <td>02</td>
-                                            <td>$455,00</td>
-                                            <td>
-                                                <p class="text-yellow small mb-0">Delivered</p>
-                                            </td>
-                                            <td>
-                                                <div class="d-flex align-items-center justify-content-between">
-                                                    <div>
-                                                        <a href="#"><i class="fa-solid text-yellow me-2 fa-trash"></i></a>
-                                                        <a href="#"><i class="fa-solid text-yellow fa-pen-to-square"></i></a>
-                                                    </div>
-                                                    <a href="orderdetail.html"
-                                                        class="text-yellow text-decoration-none">
-                                                        Details
-                                                        <i class="fa-solid fa-arrow-right"></i>
-                                                    </a>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="col-6">
+                                <div class=" mt-4 table-responsive main-table3">
+                                    <table class="table ">
+                                        <thead>
+                                            <tr>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Select</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Menu</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Quantity</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Prices</th>
+                                                <th class="p-3 tbltxt text-nowrap text-white">Active</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="align-middle">
+                                            <tr>
+                                                <td class="tbltxt text-center">
+                                                    <input type="checkbox">
+                                                </td>
+                                                <td class="tbltxt text-center">Food here</td>
+                                                <td class="tbltxt text-center">1KG</td>
+                                                <td class="tbltxt text-center">$50</td>
+                                                <td class="tbltxt text-center">
+                                                    <button class="bg-yellow text-white border-0 px-4 rounded-3 py-2">
+                                                        Add
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>

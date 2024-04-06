@@ -57,6 +57,9 @@
     background-color: #CCEDFE;
     height: 100%;
 }
+.tbltxt{
+    font-size: 12px;
+}
 .search{
     border: solid 1px #BEBEBE;
     background-color: #F7F7F7;
