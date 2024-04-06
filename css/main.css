@@ -207,6 +207,25 @@ textarea {
     border: 3px solid var(--blue);
     border-radius: 10px;
 }
+.side-nav {
+    height: calc(100dvh - 270px);
+    overflow: auto
+}
+
+.side-nav::-webkit-scrollbar {
+    width: 8px;
+}
+
+.side-nav::-webkit-scrollbar-track {
+    background: var(--blue);
+    border-radius: 10px;
+}
+
+.side-nav::-webkit-scrollbar-thumb {
+    background: #fff;
+    border: 3px solid var(--blue);
+    border-radius: 10px;
+}
 
 .checkbox-wrapper-23 *,
 .checkbox-wrapper-23 *:after,
