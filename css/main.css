@@ -276,7 +276,12 @@ textarea {
   stroke-dashoffset: 110;
   transition: all 250ms cubic-bezier(1,0,.37,.91);
 }
-
+.top-rounded {
+    border-radius: 10px 10px 0 0;
+}
+.bg-lgrey {
+    background: #F0F0F0;
+}
 @media screen and (max-width:767px) {
     .sidebar {
         position: absolute;
