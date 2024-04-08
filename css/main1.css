@@ -138,3 +138,7 @@
 .main-table3 .table thead tr th:last-child{
     border-top-right-radius: 13px
 }
+.main-table4 .table thead tr th{
+    background-color: #1D66A5 !important;
+    text-align: center;
+}
