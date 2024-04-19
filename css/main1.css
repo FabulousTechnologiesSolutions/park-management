@@ -142,3 +142,19 @@
     background-color: #1D66A5 !important;
     text-align: center;
 }
+.login-option {
+    width: 20px
+}
+.login-img {
+    object-fit: cover;
+    object-position: center;
+}
+.bg-pink {
+    background: #fee3dc;
+}
+.login-img-fix {
+    left: 50%;
+}
+.lblue2 {
+    background: #fdf2e4;
+}
