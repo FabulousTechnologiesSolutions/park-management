@@ -282,6 +282,9 @@ textarea {
 .bg-lgrey {
     background: #F0F0F0;
 }
+.bg-gr {
+    background: #F0EDFF;
+}
 @media screen and (max-width:767px) {
     .sidebar {
         position: absolute;
