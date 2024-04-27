@@ -195,6 +195,7 @@ textarea {
 
 .content::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
 }
 
 .content::-webkit-scrollbar-track {
@@ -214,6 +215,8 @@ textarea {
 
 .side-nav::-webkit-scrollbar {
     width: 8px;
+    height: 8px;
+
 }
 
 .side-nav::-webkit-scrollbar-track {
