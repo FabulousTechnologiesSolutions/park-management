@@ -48,15 +48,11 @@
                         </a>
                         <a href="suppliers.html" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/supplier.png" alt="sidebar link" class="me-2">
-                            <span >Total Suppliers</span>
+                            <span >Supplier List</span>
                         </a>
                         <a href="productinventory.html" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/kitchen.png" alt="sidebar link" class="me-2">
-                            <span>Total Inventory</span>
-                        </a>
-                        <a href="shortageitems.html" class="d-block small text-decoration-none text-white my-3">
-                            <img src="../img/shop.png" alt="sidebar link" class="me-2">
-                            <span>Shortages Items</span>
+                            <span>Product Inventory</span>
                         </a>
                         <a href="parkvisitors.html" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/usersy.png" alt="sidebar link" class="me-2">
@@ -68,7 +64,7 @@
                         </a>
                         <a href="parkhostess.html" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/stewardess.png" alt="sidebar link" class="me-2">
-                            <span>Total Park Hostess</span>
+                            <span>List of Hostess</span>
                         </a>
                         <a href="restwaiter.html" class="d-block small text-decoration-none text-white my-3">
                             <img src="../img/waiter.png" alt="sidebar link" class="me-2">
@@ -136,16 +132,23 @@
                     <div class="container-fluid mt-3 px-0">
                         <div class="row shadow rounded-4 p-3 m-1">
                             <p class="mb-0 fw-md">Filter by:</p>
-                            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-2">
                                 <input type="text" class="form-control" placeholder="Ticket No">
                             </div>
-                            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-2">
                                 <input type="text" class="form-control" placeholder="Entry Date">
                             </div>
-                            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-2">
                                 <input type="text" class="form-control" placeholder="Total Visitors">
                             </div>
-                            <div class="col-12 col-sm-6 col-lg-3 mt-2">
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-2">
+                                <select name="period" id="period" class="form-control">
+                                    <option value="week" selected>Week</option>
+                                    <option value="month">Month</option>
+                                    <option value="year">Year</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-2">
                                 <input type="submit" class="form-control bg-yellow text-white" value="Search">
                             </div>
                         </div>
