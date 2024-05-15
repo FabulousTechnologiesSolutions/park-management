@@ -209,7 +209,7 @@ textarea {
     border-radius: 10px;
 }
 .side-nav {
-    height: calc(100dvh - 270px);
+    height: calc(100dvh - 313px);
     overflow: auto
 }
 
@@ -311,7 +311,7 @@ textarea {
     }
 
     .side-nav {
-        height: calc(100dvh - 341px);
+        height: calc(100dvh - 406px);
         overflow: auto;
     }
 }
