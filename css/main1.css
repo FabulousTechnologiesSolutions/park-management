@@ -32,12 +32,12 @@
     border-radius: 10px;
 }
 .lsticn2{
-    background-color: #EF9130;
+    background-color: #FECC2F;
     padding: 10px;
     border-radius: 10px;
 }
 .lsticn3{
-    background-color: #01A5FB;
+    background-color: #2b487e;
     padding: 10px;
     border-radius: 10px;
 }
@@ -97,7 +97,7 @@
     border: solid 1px var(--yellow) !important;
 }
 .main-table2 .table thead tr th{
-    background-color: #1D66A5 !important;
+    background-color: #2b487e !important;
     text-align: center;
 }
 
@@ -129,7 +129,7 @@
     border-bottom-right-radius: 16px;
 }
 .main-table3 .table thead tr th{
-    background-color: #1D66A5 !important;
+    background-color: #2b487e !important;
     text-align: center;
 }
 .main-table3 .table thead tr th:first-child{
@@ -139,7 +139,7 @@
     border-top-right-radius: 13px
 }
 .main-table4 .table thead tr th{
-    background-color: #1D66A5 !important;
+    background-color: #2b487e !important;
     text-align: center;
 }
 .login-option {
